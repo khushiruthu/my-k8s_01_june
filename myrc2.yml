@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: tomcat-container
-          image:   tomcat-image
+          image:   tomcat
           ports:
             - containerPort: 80
