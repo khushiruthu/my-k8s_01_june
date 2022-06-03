@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: myjavaapp-deploy
   labels:
-   app: myjavaapp
+    app: myjavaapp
 spec:
    replicas: 3
    selector:
-    matchLabels:
-        app: myjavaapp
+     matchLabels:
+         app: myjavaapp
    template:
      metadata:
        labels:
         app: myjavaapp
-   spec:
+     spec:
      containers:
      - name: myjavaap-continer
        image: maha4iac/myonlinebooking:2
