@@ -15,6 +15,6 @@ spec:
     spec:
        containers:
          - name: mylogin-container
-           image: maha4iac/myonlinebooking:2
+           image: kushiruthu-myrpo:2
            ports:
            - containerPort: 8080
