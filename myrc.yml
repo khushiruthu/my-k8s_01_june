@@ -6,15 +6,15 @@ spec:
   replicas: 2
   selector:
      app: mylogin
-     version: 2.0.1
+     version: 2.6.1
   template:
     metadata:
        labels:
-         app: mylogin
-         version: 2.0.1
+          app: mylogin
+          version: 2.6.1
     spec:
        containers:
          - name: mylogin-container
-           image: kushiruthu-myrpo:2
+           image: maha4iac/mahalogin:1
            ports:
            - containerPort: 8080
